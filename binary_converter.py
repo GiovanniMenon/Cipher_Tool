@@ -1,6 +1,6 @@
 import string
 
-def string_to__bit(text):
+def string_to_bit(text):
     return "".join(f'{ord(char):08b}' for char in text )
  
 def bit_to_string(bit):
@@ -13,7 +13,7 @@ def bit_to_int(bit):
     return int(bit , 2)
 
 #Usage
-text = string_to__bit("Hello World")
+text = string_to_bit("Hello World")
 print(text)
 bit = bit_to_string(text)
 print(bit)
