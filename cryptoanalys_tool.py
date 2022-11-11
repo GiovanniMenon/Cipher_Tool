@@ -1,6 +1,6 @@
 import string
 
-def character_frequency(text):
+def count_char(text):
     Chars = {}
     for char in text:
         if char in string.ascii_letters:
@@ -10,7 +10,7 @@ def character_frequency(text):
                 Chars[char] += 1
     return dict(sorted(Chars.items() , key= lambda item:item[1], reverse= True))
 
-def word_frequency(text, lenght = None):
+def count_word(text, lenght = None):
     if lenght is None:
         Words = text.split()
         wfreq=[Words.count(w) for w in Words]
@@ -25,6 +25,7 @@ def word_frequency(text, lenght = None):
                     Words[word] += 1
         return dict(sorted(Words.items() , key= lambda item:item[1], reverse= True)) 
 
-#usage
-print(character_frequency("ciaoo' 'o o o a a a"))
-print(word_frequency("don't the don't i'm" , 3))
+#Usage:
+
+print(count_word("Hello World!!!!!"))
+print(count_char("Hello World!!, Hello World"))
