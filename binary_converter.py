@@ -20,6 +20,6 @@ print(bit)
 
 bitIntero = int_to_bit(23)
 print(bitIntero)
-Intero = bit_to_int(bitIntero)
+Intero = bit_to_int("0001110000000000000100000000010")
 print(Intero)
 
