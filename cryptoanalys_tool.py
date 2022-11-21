@@ -2,7 +2,7 @@ import string
 
 def count_char(text):
     Chars = {}
-    count = 0;
+    count = 0
     for char in text:
         if char in string.ascii_letters:
             if char not in Chars:
