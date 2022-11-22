@@ -18,3 +18,4 @@ for i in range(10):
         break
 
 #print(base64_to_text(text))
+print(text_to_base64('ciao'))
