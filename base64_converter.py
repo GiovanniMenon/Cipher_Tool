@@ -1,7 +1,7 @@
 import base64
 
 def base64_to_text(text):
-    return base64.b64decode(text).decode('UTF-8', errors="ingore")
+    return base64.b64decode(text).decode('UTF-8', errors="ignore")
 
 def text_to_base64(text):
     return base64.b64encode(bytes(text, 'utf-8'))
