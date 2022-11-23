@@ -5,6 +5,8 @@
       2. A single letter that's not the **I** found in the point 1, is the letter: **A**.
     - Strategy **I'LL**:
         1. A single letter with the `'` and another two equal letters following, means: **I'll**.
+    - Strategy **I'VE**:
+        1. A single letter with the `'` and another two different letters following, probably means: **I've**.
 
 2. Find the **E**:
    1. Use the frequency counter and see the most frequent letters.
@@ -18,4 +20,6 @@
 
 4. Common two char words (use them to find better solutions): `in, of, to, is, it, on, no, us, at, un, go, an, my, up, me, as, he, we, so, be, by, or, do, if, hi, bi, ex, ok`
 
-5. Exploit "for-sure" information (maybe you know that you should find a "flag" word in a specific place, and you replace the corresponding letters with correct ones).%
+5. Common three char words (use them to find better solutions): `the , man, will, are, was, she, her, his, can, has, had, any, all, out, for, the, and, can, you`
+
+6. Exploit "for-sure" information (maybe you know that you should find a "flag" word in a specific place, and you replace the corresponding letters with correct ones).%
