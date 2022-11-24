@@ -4,7 +4,7 @@ def base64_to_text(text):
     return base64.b64decode(text).decode('UTF-8', errors="ignore")
 
 def text_to_base64(text):
-    return base64.b64encode(bytes(text, 'utf-8'))
+    return base64.b64encode(str.encode(text))
 
 #Usage
 text="Vmxkd1NrNVhVbk5qUlZKU1ltdGFjRlJYZEhOaWJFNVhWR3RPV0dKVmJEWldiR1JyV1ZkS1ZXRXphRnBpVkVaVFYycEtVMU5IUmtobFJYQlRUVmhDTmxZeFdtdGhhelZ5WWtWYWFWSlViRmRVVlZaYVRURmFjbFpyT1ZaV2JXUTJWa1pvYTFkck1YVlVhbHBoVWxack1GUlZaRXRqVmxaMVZHMTRXRkpVUlRCWFdIQkdUbGRHY2s1VmFFOVdNWEJoV1Zkek1XSldaSFJPVm1SclZsZDRXbFJWVm5wUVVUMDk="
@@ -17,5 +17,5 @@ for i in range(10):
         print(f"Round {i} : ",text)
         break
 
-#print(base64_to_text(text))
+print(base64_to_text(text))
 print(text_to_base64('ciao'))
