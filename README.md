@@ -17,3 +17,8 @@ It cover topics as:
  - GOT hijacking,
  - ROP chains hijacking. 
 
+
+---
+
+<p align="center"> In collaboration with <a href="https://github.com/RiccardoTonioloDev"> Riccardo Toniolo </a> and  <a href="https://github.com/GianlucaBresolin"> Gianluca Bresolin  </a>.
+</p>
